@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="57" passed="57" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-11T13:51:40 IST" name="FunctionalTesting" finished-at="2023-05-11T14:02:07 IST" duration-ms="627112">
+    <groups>
+    </groups>
+    <test started-at="2023-05-11T13:51:40 IST" name="Iteration1" finished-at="2023-05-11T14:02:07 IST" duration-ms="627112">
+      <class name="com.AdminBackEnd.TestClassAdmin">
+        <test-method is-config="true" signature="lauchdriver()[pri:0, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:53:17 IST" name="lauchdriver" finished-at="2023-05-11T13:53:26 IST" duration-ms="9043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchdriver -->
+        <test-method signature="LoginwithEmptyEmailId()[pri:1, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:53:26 IST" name="LoginwithEmptyEmailId" description="TC_1: Verify the Admin log in with empty email id and valid password" finished-at="2023-05-11T13:53:36 IST" duration-ms="9927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyEmailId -->
+        <test-method signature="loginwithInvalidEmailId()[pri:2, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:53:36 IST" name="loginwithInvalidEmailId" description="TC_2: Verify the Admin log in with invalid email id and valid password" finished-at="2023-05-11T13:53:49 IST" duration-ms="13096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailId -->
+        <test-method signature="loginwithEmptyPassword()[pri:3, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:53:49 IST" name="loginwithEmptyPassword" description="TC_3: Verify the Admin log in with valid email id and blank password" finished-at="2023-05-11T13:54:02 IST" duration-ms="13113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyPassword -->
+        <test-method signature="loginwithInvalidPassword()[pri:4, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:54:02 IST" name="loginwithInvalidPassword" description="TC_4: Verify the Admin log in with valid email id and invalid password" finished-at="2023-05-11T13:54:15 IST" duration-ms="13095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidPassword -->
+        <test-method signature="loginwithInvalidEmailandPassword()[pri:5, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:54:15 IST" name="loginwithInvalidEmailandPassword" description="TC_5: Verify the Admin log in with invalid email id and invalid password" finished-at="2023-05-11T13:54:29 IST" duration-ms="13156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailandPassword -->
+        <test-method signature="loginwithEmptyEmailandPassword()[pri:6, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:54:29 IST" name="loginwithEmptyEmailandPassword" description="TC_6: Verify the Admin log in with blank email id and blank password" finished-at="2023-05-11T13:54:42 IST" duration-ms="12954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyEmailandPassword -->
+        <test-method signature="loginverification()[pri:7, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:54:42 IST" name="loginverification" description="TC_7: Verify the Admin log in with valid email id and valid password" finished-at="2023-05-11T13:55:06 IST" duration-ms="24312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverification -->
+        <test-method signature="VerifybookingsLink()[pri:8, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:55:06 IST" name="VerifybookingsLink" description="TC_8: Verify Bookings links" finished-at="2023-05-11T13:55:13 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifybookingsLink -->
+        <test-method signature="ViewInvoice()[pri:9, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:55:13 IST" name="ViewInvoice" description="TC_9: Verify Confirmed bookings links and view invoice" finished-at="2023-05-11T13:55:25 IST" duration-ms="11972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewInvoice -->
+        <test-method signature="DeleteCancelledBooking()[pri:10, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:55:25 IST" name="DeleteCancelledBooking" description="TC_10: Verify Cancelled bookings links and delete a booking" finished-at="2023-05-11T13:55:42 IST" duration-ms="17624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCancelledBooking -->
+        <test-method signature="ChangeBookingStatus()[pri:11, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:55:42 IST" name="ChangeBookingStatus" description="TC_11: Change bookings status from pending to confirmed and verify the booking count" finished-at="2023-05-11T13:56:04 IST" duration-ms="21135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeBookingStatus -->
+        <test-method signature="Logout()[pri:12, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:56:04 IST" name="Logout" description="TC_12: Logout" finished-at="2023-05-11T13:56:27 IST" duration-ms="23763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:com.AdminBackEnd.TestClassAdmin@4fb61f4a]" started-at="2023-05-11T13:56:27 IST" name="CloseDriver" finished-at="2023-05-11T13:56:28 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.AdminBackEnd.TestClassAdmin -->
+      <class name="com.SupplierBackEnd.TestClassSupplier">
+        <test-method is-config="true" signature="lauchdriver()[pri:0, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:51:40 IST" name="lauchdriver" finished-at="2023-05-11T13:51:51 IST" duration-ms="10764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchdriver -->
+        <test-method signature="LoginwithEmptyEmailId()[pri:1, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:51:51 IST" name="LoginwithEmptyEmailId" description="TC_1: Verify the Supplier log in with empty email id and valid password" finished-at="2023-05-11T13:51:57 IST" duration-ms="5738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyEmailId -->
+        <test-method signature="loginwithInvalidEmailId()[pri:2, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:51:57 IST" name="loginwithInvalidEmailId" description="TC_2: Verify the Supplier log in with invalid email id and valid password" finished-at="2023-05-11T13:52:01 IST" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailId -->
+        <test-method signature="loginwithEmptyPassword()[pri:3, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:01 IST" name="loginwithEmptyPassword" description="TC_3: Verify the Supplier log in with valid email id and blank password" finished-at="2023-05-11T13:52:05 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyPassword -->
+        <test-method signature="loginwithInvalidPassword()[pri:4, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:05 IST" name="loginwithInvalidPassword" description="TC_4: Verify the Supplier log in with valid email id and invalid password" finished-at="2023-05-11T13:52:09 IST" duration-ms="4012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidPassword -->
+        <test-method signature="loginwithInvalidEmailandPassword()[pri:5, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:09 IST" name="loginwithInvalidEmailandPassword" description="TC_5: Verify the Supplier log in with invalid email id and invalid password" finished-at="2023-05-11T13:52:13 IST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailandPassword -->
+        <test-method signature="loginwithEmptyEmailandPassword()[pri:6, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:13 IST" name="loginwithEmptyEmailandPassword" description="TC_6: Verify the Supplier log in with blank email id and blank password" finished-at="2023-05-11T13:52:18 IST" duration-ms="4512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyEmailandPassword -->
+        <test-method signature="loginverification()[pri:7, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:18 IST" name="loginverification" description="TC_7: Verify the Supplier log in with valid email id and valid password" finished-at="2023-05-11T13:52:25 IST" duration-ms="7037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverification -->
+        <test-method signature="CheckSalesOverviewandSummaryText()[pri:8, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:25 IST" name="CheckSalesOverviewandSummaryText" description="TC_8: Check Sales overview &amp; summary text is displayed in dashboad" finished-at="2023-05-11T13:52:25 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSalesOverviewandSummaryText -->
+        <test-method signature="CheckRevenueBreakdownSession()[pri:9, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:25 IST" name="CheckRevenueBreakdownSession" description="TC_9: Check Revenue Breakdown is displayed in dashboad" finished-at="2023-05-11T13:52:25 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRevenueBreakdownSession -->
+        <test-method signature="ChangeBookingStatus()[pri:10, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:25 IST" name="ChangeBookingStatus" description="TC_10: Change bookings status from pending to confirmed" finished-at="2023-05-11T13:52:47 IST" duration-ms="22668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeBookingStatus -->
+        <test-method signature="VerifyToursLinks()[pri:12, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:52:47 IST" name="VerifyToursLinks" description="TC_12: Verify Tours page links" finished-at="2023-05-11T13:53:03 IST" duration-ms="15485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToursLinks -->
+        <test-method signature="Logout()[pri:14, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:53:03 IST" name="Logout" description="TC_14: Logout" finished-at="2023-05-11T13:53:17 IST" duration-ms="13693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:com.SupplierBackEnd.TestClassSupplier@6356695f]" started-at="2023-05-11T13:53:17 IST" name="CloseDriver" finished-at="2023-05-11T13:53:17 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.SupplierBackEnd.TestClassSupplier -->
+      <class name="com.AgentFrontEnd.TestClassAgent">
+        <test-method is-config="true" signature="lauchdriver()[pri:0, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:56:28 IST" name="lauchdriver" finished-at="2023-05-11T13:56:35 IST" duration-ms="7003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchdriver -->
+        <test-method signature="LoginwithEmptyEmailId()[pri:1, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:56:35 IST" name="LoginwithEmptyEmailId" description="TC_1: Verify the AGENT log in with empty email id and valid password" finished-at="2023-05-11T13:56:45 IST" duration-ms="9899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyEmailId -->
+        <test-method signature="loginwithInvalidEmailId()[pri:2, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:56:45 IST" name="loginwithInvalidEmailId" description="TC_2: Verify the AGENT log in with invalid email id and valid password" finished-at="2023-05-11T13:57:02 IST" duration-ms="17354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailId -->
+        <test-method signature="loginwithEmptyPassword()[pri:3, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:57:02 IST" name="loginwithEmptyPassword" description="TC_3: Verify the AGENT log in with valid email id and blank password" finished-at="2023-05-11T13:57:15 IST" duration-ms="12599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyPassword -->
+        <test-method signature="loginwithInvalidPassword()[pri:4, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:57:15 IST" name="loginwithInvalidPassword" description="TC_4: Verify the AGENT log in with valid email id and invalid password" finished-at="2023-05-11T13:57:32 IST" duration-ms="17407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidPassword -->
+        <test-method signature="loginwithInvalidEmailandPassword()[pri:5, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:57:32 IST" name="loginwithInvalidEmailandPassword" description="TC_5: Verify the AGENT log in with invalid email id and invalid password" finished-at="2023-05-11T13:57:49 IST" duration-ms="16912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailandPassword -->
+        <test-method signature="loginwithEmptyEmailandPassword()[pri:6, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:57:49 IST" name="loginwithEmptyEmailandPassword" description="TC_6: Verify the AGENT log in with blank email id and blank password" finished-at="2023-05-11T13:58:02 IST" duration-ms="12563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyEmailandPassword -->
+        <test-method signature="loginverification()[pri:7, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:02 IST" name="loginverification" description="TC_7: Verify the AGENT log in with valid email id and valid password" finished-at="2023-05-11T13:58:19 IST" duration-ms="17070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverification -->
+        <test-method signature="VerifyMybookingsLink()[pri:8, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:19 IST" name="VerifyMybookingsLink" description="TC_8: Verify My Bookings links" finished-at="2023-05-11T13:58:24 IST" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMybookingsLink -->
+        <test-method signature="ViewVoucher()[pri:9, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:24 IST" name="ViewVoucher" description="TC_9: View Booking invoice" finished-at="2023-05-11T13:58:32 IST" duration-ms="7526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewVoucher -->
+        <test-method signature="AddFundsLinks()[pri:10, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:32 IST" name="AddFundsLinks" description="TC_10: Test Add Funds Page Links" finished-at="2023-05-11T13:58:38 IST" duration-ms="6252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFundsLinks -->
+        <test-method signature="MyProfileLinks()[pri:11, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:38 IST" name="MyProfileLinks" description="TC_11: Test My Profile Page Links" finished-at="2023-05-11T13:58:45 IST" duration-ms="6867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileLinks -->
+        <test-method signature="SearchHotelwithInvalidCityName()[pri:12, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:45 IST" name="SearchHotelwithInvalidCityName" description="TC_12: Search Hotels with invalid city name" finished-at="2023-05-11T13:58:59 IST" duration-ms="13708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelwithInvalidCityName -->
+        <test-method signature="SearchHotelwithValidCityName()[pri:13, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:58:59 IST" name="SearchHotelwithValidCityName" description="TC_13: Search Hotels with valid city name" finished-at="2023-05-11T13:59:24 IST" duration-ms="24780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelwithValidCityName -->
+        <test-method signature="CheckHomePagelink()[pri:14, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:59:24 IST" name="CheckHomePagelink" description="TC_14: Check Home Page link" finished-at="2023-05-11T13:59:31 IST" duration-ms="7372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePagelink -->
+        <test-method signature="CheckFlightPagelink()[pri:15, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:59:31 IST" name="CheckFlightPagelink" description="TC_15: Check Flights Page link" finished-at="2023-05-11T13:59:36 IST" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFlightPagelink -->
+        <test-method signature="CheckToursPagelink()[pri:16, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:59:36 IST" name="CheckToursPagelink" description="TC_16: Check Tours Page link" finished-at="2023-05-11T13:59:42 IST" duration-ms="5969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckToursPagelink -->
+        <test-method signature="CheckVisaPagelink()[pri:17, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:59:42 IST" name="CheckVisaPagelink" description="TC_17: Check Visa Page link" finished-at="2023-05-11T13:59:48 IST" duration-ms="5607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckVisaPagelink -->
+        <test-method signature="CheckBlogPagelink()[pri:18, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:59:48 IST" name="CheckBlogPagelink" description="TC_18: Check Blog Page link" finished-at="2023-05-11T13:59:55 IST" duration-ms="6992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBlogPagelink -->
+        <test-method signature="CheckOffersPagelink()[pri:19, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T13:59:55 IST" name="CheckOffersPagelink" description="TC_19: Check Offers Page link" finished-at="2023-05-11T14:00:01 IST" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOffersPagelink -->
+        <test-method signature="ChangeCurrencyTypetoINR()[pri:20, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T14:00:01 IST" name="ChangeCurrencyTypetoINR" description="TC_20: Change currency type to INR" finished-at="2023-05-11T14:00:15 IST" duration-ms="13494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeCurrencyTypetoINR -->
+        <test-method signature="Logout()[pri:21, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T14:00:15 IST" name="Logout" description="TC_21: Logout" finished-at="2023-05-11T14:00:21 IST" duration-ms="6558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:com.AgentFrontEnd.TestClassAgent@4fb0f2b9]" started-at="2023-05-11T14:00:21 IST" name="CloseDriver" finished-at="2023-05-11T14:00:22 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.AgentFrontEnd.TestClassAgent -->
+      <class name="com.CustomerFrontEnd.TestClassCustomer">
+        <test-method is-config="true" signature="lauchdriver()[pri:0, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:22 IST" name="lauchdriver" finished-at="2023-05-11T14:00:29 IST" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchdriver -->
+        <test-method signature="LoginwithEmptyEmailId()[pri:1, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:29 IST" name="LoginwithEmptyEmailId" description="TC_1: Verify the customer log in with empty email id and valid password" finished-at="2023-05-11T14:00:32 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyEmailId -->
+        <test-method signature="loginwithInvalidEmailId()[pri:2, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:32 IST" name="loginwithInvalidEmailId" description="TC_2: Verify the customer log in with invalid email id and valid password" finished-at="2023-05-11T14:00:40 IST" duration-ms="8106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailId -->
+        <test-method signature="loginwithEmptyPassword()[pri:3, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:40 IST" name="loginwithEmptyPassword" description="TC_3: Verify the customer log in with valid email id and blank password" finished-at="2023-05-11T14:00:43 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyPassword -->
+        <test-method signature="loginwithInvalidPassword()[pri:4, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:43 IST" name="loginwithInvalidPassword" description="TC_4: Verify the customer log in with valid email id and invalid password" finished-at="2023-05-11T14:00:50 IST" duration-ms="7393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidPassword -->
+        <test-method signature="loginwithInvalidEmailandPassword()[pri:5, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:50 IST" name="loginwithInvalidEmailandPassword" description="TC_5: Verify the customer log in with invalid email id and invalid password" finished-at="2023-05-11T14:00:57 IST" duration-ms="7355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmailandPassword -->
+        <test-method signature="loginwithEmptyEmailandPassword()[pri:6, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:00:57 IST" name="loginwithEmptyEmailandPassword" description="TC_6: Verify the customer log in with blank email id and blank password" finished-at="2023-05-11T14:01:00 IST" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmptyEmailandPassword -->
+        <test-method signature="loginverification()[pri:7, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:01:00 IST" name="loginverification" description="TC_7: Verify the customer log in with valid email id and valid password" finished-at="2023-05-11T14:01:08 IST" duration-ms="7365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverification -->
+        <test-method signature="VerifyMybookingsLink()[pri:8, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:01:08 IST" name="VerifyMybookingsLink" description="TC_8: Verify My Bookings links" finished-at="2023-05-11T14:01:13 IST" duration-ms="5546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMybookingsLink -->
+        <test-method signature="ViewVoucher()[pri:9, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:01:13 IST" name="ViewVoucher" description="TC_9: View Booking invoice" finished-at="2023-05-11T14:01:21 IST" duration-ms="7565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewVoucher -->
+        <test-method signature="AddFunds()[pri:10, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:01:21 IST" name="AddFunds" description="TC_10: Proceed to Add 50$ fund in account through paypal" finished-at="2023-05-11T14:01:42 IST" duration-ms="21593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFunds -->
+        <test-method signature="UpdateAddress()[pri:11, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:01:42 IST" name="UpdateAddress" description="TC_11: Update Address of the user" finished-at="2023-05-11T14:02:00 IST" duration-ms="17258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAddress -->
+        <test-method signature="Logout()[pri:12, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:02:00 IST" name="Logout" description="TC_12: Logout Verification" finished-at="2023-05-11T14:02:07 IST" duration-ms="7097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:com.CustomerFrontEnd.TestClassCustomer@79924b]" started-at="2023-05-11T14:02:07 IST" name="CloseDriver" finished-at="2023-05-11T14:02:07 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.CustomerFrontEnd.TestClassCustomer -->
+    </test> <!-- Iteration1 -->
+  </suite> <!-- FunctionalTesting -->
+</testng-results>
